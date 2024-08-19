@@ -509,22 +509,29 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
         background-attachment: fixed;
         background-image: ;
         margin: 0 auto !important;
-       
+        
       }
       .txt-secao1{
         opacity: 1;
         color: #fff;
         width: 450px;
         margin: 0 auto !important;
-        padding-top: 300px;
+       
         
       }
       #institucional{
         width: 100%;
       }
       .txt-secao1 h1{
-        font-weight: 900;
+        font-weight: 600;
         text-align: left;
+        width: 560px;
+        margin-top: 140px;
+        
+      }
+      .txt-secao1 p{
+      width: 500px;
+        
       }
 
       .btn-secao1{
@@ -556,7 +563,7 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
 
       .img-secao1{
         margin: 0 auto !important;
-        
+        padding-left: 60px;
 
       }
 
@@ -572,15 +579,24 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
 
       }
 
+    
+
       .site-navbar .site-logo:hover {
        opacity: 1;
       transition: 0.4s;
       scale: 1.02;}
 
+
+      #projetos{
+
+      }
+
     #secao2{
-      background-color: #eb4d55;
       height: 720px;
       text-align: center;
+      background-image: url(https://i.imgur.com/5BNkPwV.jpeg);
+      height: 720px;
+      background-size: cover;
     }
     
     #secao2 h1{

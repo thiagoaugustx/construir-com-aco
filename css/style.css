@@ -52,7 +52,7 @@ a {
   width: 100%;
   padding: 0.1rem;
   position: fixed;
-  background: rgb(22,22,22);
+  background: rgba(255, 255, 255, 0.801);
 background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
 }
 
@@ -578,6 +578,30 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
 
 
       }
+
+      @media (max-width: 991.98px) {
+        
+        #institucional{
+          width: 100%;
+
+        }
+
+        #outer2{
+         flex-direction: column !important;
+        }
+        .txt-secao1{
+          padding:52px;
+        }
+        .txt-secao1 h1{
+          width: 90% !important;
+          font-size: 30px;
+        }
+
+        .txt-secao1 p{
+          width: 95% !important;
+        }
+      }
+
 
     
 

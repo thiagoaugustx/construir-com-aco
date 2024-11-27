@@ -6,6 +6,7 @@
   .container {
     @include make-container();
     @include make-container-max-widths();
+    width: 1300px !important;
   }
 }
 
@@ -27,6 +28,7 @@
 @if $enable-grid-classes {
   .row {
     @include make-row();
+    width: 1300px;
   }
 
   // Remove the negative margin from default .row, then the horizontal padding

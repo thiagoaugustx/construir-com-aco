@@ -59,7 +59,7 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
 
   @media (max-width: 991.98px) {
     .site-navbar {
-      padding-top: 3rem;
+      
       padding-bottom: 3rem; }
     
       .site-mobile-menu{
@@ -118,7 +118,7 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
       
       }
       .site-navbar .site-navigation .site-menu > li > a {
-        margin-right: 15px;
+        margin-right: 35px;
         padding: 15px 1px;
         font-size: 15px;
         color: rgba(255, 255, 255, 0.7) !important;
@@ -568,10 +568,11 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
 
           }
           #home-text h1{
-            font-size: 35px;
+            font-size: 55px;
             z-index: 11 !important;
-            width: 70% !important;
-            margin-left: 100px !important;
+            text-align: left;
+            margin-left: 360px !important;
+            line-height: 50px;
           }
 
           #home-text P{
@@ -606,10 +607,18 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
         width: 100%;
         
       }
+
+      .outer2-2{
+        width: 1080px !important;
+        margin: 0 auto !important;
+        display: flex;
+
+      }
+
       .txt-secao1{
         opacity: 1;
         color: #fff;
-        width: 15s%;
+        
         margin: 0 auto !important;
        margin-top: 50px !important;
       
@@ -626,7 +635,7 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
         font-weight: 400;
       }
       .txt-secao1 p{
-      width: 500px;
+        width: 500px;
         font-size: 16px;
         font-weight: 400;
       }
@@ -686,10 +695,11 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
         #outer2{
          flex-direction: column !important;
          height: 1320px !important;
+         
         }
         .txt-secao1{
-          padding:45px !important;
-         
+          padding:35px !important;
+          margin-top: -40px !important;
         }
         .txt-secao1 h1{
           width: 90% !important;
@@ -793,6 +803,69 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
         width: 550px;
         text-shadow: -1px 0px 8px rgba(0,0,0,1);
       }
+
+      @media (max-width: 991.98px) {
+        #projetos{
+         
+        }
+        #secao2{
+          flex-direction: column !important;
+          height: 1280px !important;
+        }
+
+        .infos-parceiro{
+          display:block;
+          flex-direction: column;  
+        }
+        .infos-parceiro h1{
+          
+        }
+
+        .infos-parceiro img{
+          display: none;
+        }
+
+        .titulo-parceiros{ 
+          width: 400px;
+          margin-top: -60px;
+          margin-left: -15px;
+        }
+        .titulo-parceiros h1{
+          font-size: 50px;
+          line-height: 40px;
+
+        }
+        .parceiro-txt{
+          width: 100%;
+          display:block;
+          flex-direction: column; 
+          padding: 20px;
+        } 
+        
+        #beneficios-parceiro h1{ 
+          width: 30%;
+        }
+
+        .parceiro-txt p{
+          
+        }
+
+
+        #beneficios-parceiro p{
+          width: 30%;
+        }
+
+
+      }
+
+
+
+
+
+
+
+
+
     .blog-secao{
       background-image: url();
       background-size: cover;

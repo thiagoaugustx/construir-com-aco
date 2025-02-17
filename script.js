@@ -89,6 +89,9 @@ function checkEmail(email) {
 const handleSubmit = (event) => {
     event.preventDefault();
 
+
+
+    
     fetch('https://api.sheetmonkey.io/form/cWp1jTnbHCgAjQWUQSwa4k', {
 
         method: 'post',

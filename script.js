@@ -89,7 +89,18 @@ function checkEmail(email) {
 const handleSubmit = (event) => {
     event.preventDefault();
 
-    alert('enviando inscrição...')
+    fetch('https://api.sheetmonkey.io/form/cWp1jTnbHCgAjQWUQSwa4k', {
+
+        method: 'post',
+        headers: {
+            'Accept': 'application/json'
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ name: 'thiago', email: 'thiagoacdesouza@gmail.com'})
+
+
+    }
+    ) ;
 }
 
 document.querySelector('form').addEventListener('submit', handleSubmit);

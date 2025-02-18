@@ -86,24 +86,50 @@ function checkEmail(email) {
 }
 
 
+// Função para validar e enviar os dados do formulário
 const handleSubmit = (event) => {
     event.preventDefault();
 
+    // Coletar dados dos campos
+    const name = document.getElementById('username').value;
+    const Profissão = document.getElementById('area').value;
+    const email = document.getElementById('email').value;
+    const Telefone = document.getElementById('telefone').value;
+    const Empresa = document.getElementById('empresa').value;
+    const Instagram = document.getElementById('instagram').value;
 
+    // Validação simples de e-mail (pode ser melhorado)
+    if (!checkEmail(email)) {
+        alert('E-mail inválido');
+        return;
+    }
 
-    
+    // Enviar dados para o Sheet Monkey API
     fetch('https://api.sheetmonkey.io/form/cWp1jTnbHCgAjQWUQSwa4k', {
-
-        method: 'post',
+        method: 'POST',
         headers: {
-            'Accept': 'application/json'
+            'Accept': 'application/json',
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ name: 'thiago', email: 'thiagoacdesouza@gmail.com'})
+        body: JSON.stringify({
+            Nome: name,
+            Profissão: Profiss,
+            email: email,
+            Telefone: Telefone,
+            Empresa: Empresa,
+            Instagram: Instagram
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Formulário enviado com sucesso:', data);
+        alert('Formulário enviado com sucesso!');
+    })
+    .catch(error => {
+        console.error('Erro ao enviar formulário:', error);
+        alert('Ocorreu um erro. Tente novamente.');
+    });
+};
 
-
-    }
-    ) ;
-}
-
-document.querySelector('form').addEventListener('submit', handleSubmit);
+// Adiciona o evento de submit ao formulário
+document.getElementById('form').addEventListener('submit', handleSubmit);

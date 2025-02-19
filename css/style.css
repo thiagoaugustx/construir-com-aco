@@ -573,7 +573,6 @@ font-weight: 900;
           #home-top-video {
             right: 0% !important;
             top: 0%;
-            height: 100% !important;
             width: 140% !important;
             overflow: hidden;
             position: absolute;
@@ -599,6 +598,7 @@ font-weight: 900;
           .textosbanner{
             margin: 0 auto !important;
             width: 90%;
+            margin-left: -10px;
 
           }
 

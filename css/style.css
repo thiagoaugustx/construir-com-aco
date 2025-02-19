@@ -1045,7 +1045,7 @@ font-weight: 900;
     
     .background{
       background-image: url(https://i.imgur.com/iXNahUd.jpeg);
-      height: 350px;
+      padding: 90px;
       z-index: 1; 
     }
 
@@ -1104,11 +1104,13 @@ box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
 @media (max-width: 991.98px){
   .construirjuntos{
     width: 100% !important;
- height: auto;
+ 
   }
 
   .background{
     width: 100% !important;
+ 
+    margin-top: 150px;
   }
 
   .titleconstruir{

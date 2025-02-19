@@ -787,6 +787,8 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
       margin-top: 25%;
       line-height: 60px;
       text-shadow: -1px 0px 39px rgba(0,0,0,1);
+      font-family:'Segoe UI Black', Tahoma, Geneva, Verdana, sans-serif;
+
     }
 
     .titulo-parceiros img{
@@ -872,7 +874,7 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
           margin-top: -80px !important;
         }
         .titulo-parceiros h1{
-          font-size: 33px;
+          font-size: 30px;
           line-height: 30px;
         }
         .parceiro-txt{

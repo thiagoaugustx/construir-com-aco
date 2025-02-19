@@ -113,7 +113,7 @@ const handleSubmit = (event) => {
         },
         body: JSON.stringify({
             Nome: name,
-            Profissão: Profiss,
+            Profissão: Profissão,
             email: email,
             Telefone: Telefone,
             Empresa: Empresa,

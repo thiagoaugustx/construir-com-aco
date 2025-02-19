@@ -607,7 +607,7 @@ font-weight: 900;
 
        #outer2{
         background-image: url(https://i.imgur.com/PWjcgBr.jpeg) ;
-        height: 768px;
+        padding: 50px;
         background-size: cover;
         display: flex;
         background-attachment: fixed;
@@ -765,11 +765,10 @@ font-weight:400;
       }
 
     #secao2{
-      height: 720px;
       text-align: center;
       background-image: url(https://i.imgur.com/5BNkPwV.jpeg);
-      height: 720px;
       background-size: cover;
+      padding: 20px;
     }
 
     .infos-parceiro{

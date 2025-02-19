@@ -851,12 +851,12 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
         background-color: rgba(255, 255, 255, 0.672) ;
         padding: 15px;
         border-radius: 10px;
-        scale: 0.9;
+        scale: 0.8;
         opacity: 0.9;
 
       }
       #quadrado:hover{ 
-        scale: 1.05;
+        scale: 0.9;
         padding: 15px;
         transition: 1.2s;
         background-color: rgb(255, 255, 255) ;

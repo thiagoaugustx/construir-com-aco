@@ -559,71 +559,39 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
             display: none;
           }
 
-          #outer {
-            width: 100%;
-            display: block;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-           
-          }
+         #outer{
+          width: 100% !important;
+          overflow: hidden;
+         }
 
           #home-top-video {
-            left: -100% !important;
             right: 0% !important;
             top: 0%;
             height: 100% !important;
-            width: 300% !important;
+            width: 100% !important;
             overflow: hidden;
             position: absolute;
             z-index: 1;
           }
 
-          #home-top-video video{
-            opacity: 0.5;
-          }
-         
-          #home-text {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
-            color: #ffffff;
+          #home-text{
 
           }
-          #home-text h1{
-            font-size: 55px;
-            z-index: 11 !important;
-            text-align: left;
-            line-height: 50px;
-          }
 
-        
-
-          .dropdown:hover{
-            height: 120px !important;
-            
-          }
-          .dropdown2:hover{
-            height: 160px !important;
+           #home-text{
             
           }
 
           .textosbanner{
-            width: 90%;
+            margin: 0 auto !important;
 
           }
 
           .textosbanner h1{
-            width: 80%;
-
-            
- 
-          }
-
-          .textosbanner{
-
+            margin-left: 55px;
+            font-size: 50px;
+            line-height: 45px;
+            margin-top: 40px;
           }
         }
 

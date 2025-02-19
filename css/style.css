@@ -77,6 +77,11 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
       width: 100% !important;
     };
 
+    html, body {
+      overflow-x: hidden;  
+      overflow-y: auto;
+    }
+
 
     .site-navbar {
       

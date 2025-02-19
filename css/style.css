@@ -1040,13 +1040,14 @@ font-weight: 900;
     /* FIM DA SECAO DE DUVIDAS FREQUENTES */
     
     .construirjuntos{
-      height: 350px;
     }
+
+
     
     .background{
       background-image: url(https://i.imgur.com/iXNahUd.jpeg);
-      padding: 90px;
       z-index: 1; 
+      height: 350px;
     }
 
     .titleconstruir{
@@ -1076,11 +1077,13 @@ font-weight: 400;
   width: 50px;
   height: 50px;
   margin: 0 auto !important;
+  margin-top: -60px !important;
   position: relative; top: -22%; 
   cursor: pointer;
   -webkit-box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
 -moz-box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
 box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
+
 }
 .material-symbols-outlined{
   color: #fff;
@@ -1110,7 +1113,6 @@ box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
   .background{
     width: 100% !important;
  
-    margin-top: 150px;
   }
 
   .titleconstruir{

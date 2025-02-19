@@ -6,16 +6,18 @@ body {
   background-color: rgb(0, 0, 0);
   position: relative; 
   
-    overflow: hidden;
-
 }
 
  html{
   scroll-behavior:smooth;
-  overflow: hidden;
 
 }
-  
+
+html, body {
+  overflow-x: hidden; 
+  overflow-y: auto; 
+}
+
   body:before {
     content: "";
     position: absolute;

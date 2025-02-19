@@ -541,7 +541,7 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
 
         }
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 991.98px) {
 
           #persona-teste IMG{
             display: none;
@@ -701,7 +701,7 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
       }
 
       
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 991.98px) {
         
         #institucional{
           width: 100% !important;

@@ -494,18 +494,19 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
           position: relative;
           overflow: hidden;
           min-height: 100vh;
-          
+
         }
         
         #home-top-video {
-          top: -50%;
           width: 100%;
           overflow:hidden;
           position: absolute;
-          
+          margin-top: -350px;
+
         }
         #home-top-video img {
-          opacity: 0.2;
+          opacity: 0.3;
+          object-fit: cover;
           z-index: 1;
         }
 
@@ -538,7 +539,6 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
           z-index: 2 !important;
           font-weight:bold;
           font-size: 100px;
-          margin-top: -90px;
           margin-left:400px;
           text-align: left;
           font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -563,6 +563,11 @@ font-weight: 900;
          #outer{
           width: 100% !important;
           overflow: hidden;
+
+     
+          display: flex;
+          text-align: center;
+         
          }
 
           #home-top-video {
@@ -573,7 +578,15 @@ font-weight: 900;
             overflow: hidden;
             position: absolute;
             z-index: 1;
+            margin-top: 0px;
           }
+
+          #home-top-video img{
+            opacity: 0.35;
+
+
+          }
+          
 
           #home-text{
 
@@ -589,10 +602,11 @@ font-weight: 900;
           }
 
           .textosbanner h1{
-            margin-left: 30px;
             font-size: 50px;
             line-height: 45px;
             margin-top: 40px;
+            margin-left:15px;
+
           }
         }
 

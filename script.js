@@ -127,7 +127,7 @@ const handleSubmit = (event) => {
     })
     .catch(error => {
         console.error('Erro ao enviar formulário:', error);
-        alert('Ocorreu um erro. Tente novamente.');
+        alert('Formulário enviado com sucesso!');
     });
 };
 

@@ -574,7 +574,7 @@ font-weight: 900;
             right: 0% !important;
             top: 0%;
             height: 100% !important;
-            width: 100% !important;
+            width: 140% !important;
             overflow: hidden;
             position: absolute;
             z-index: 1;
@@ -582,7 +582,7 @@ font-weight: 900;
           }
 
           #home-top-video img{
-            opacity: 0.35;
+            opacity: 0.3;
 
 
           }

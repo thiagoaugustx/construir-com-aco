@@ -715,7 +715,7 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
           margin-top: -40px !important;
         }
         .txt-secao1 h1{
-          font-size:35px;
+          font-size:px;
           width: 90% !important;
         }
 
@@ -1101,11 +1101,11 @@ box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
   }
 
   .titleconstruir{
-    width: 100% !important;
+    width: 90% !important;
   }
 
   .titleconstruir h1{
-    font-size: 30px;
+    font-size: 25px;
 
   }
 

@@ -566,7 +566,6 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
             position: relative;
             overflow: hidden;
            
-            height: 768px !important;
           }
 
           #home-top-video {
@@ -597,14 +596,10 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
             font-size: 55px;
             z-index: 11 !important;
             text-align: left;
-            margin-left: 360px !important;
             line-height: 50px;
           }
 
-          #home-text P{
-            font-size: 12px;
-            z-index: 11 !important;
-          }
+        
 
           .dropdown:hover{
             height: 120px !important;
@@ -613,6 +608,22 @@ background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
           .dropdown2:hover{
             height: 160px !important;
             
+          }
+
+          .textosbanner{
+            width: 90%;
+
+          }
+
+          .textosbanner h1{
+            width: 80%;
+
+            
+ 
+          }
+
+          .textosbanner{
+
           }
         }
 
@@ -737,13 +748,13 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
         }
         .txt-secao1 h1{
           font-size:25px;
-          width: 70% !important;
+          width: 90% !important;
         }
 
         .txt-secao1 p{
           width: 80% !important;
           font-family: 'Segoe UI regular', Tahoma, Geneva, Verdana, sans-serif;
-          font-size: 20px;
+          font-size: 15px;
         }
 
         .img-secao{

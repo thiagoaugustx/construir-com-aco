@@ -62,7 +62,6 @@ a {
   background: rgba(255, 255, 255, 0.801);
 
   
-background: linear-gradient(180deg, rgba(22,22,22,1) 0%, rgba(0,0,0,0) 76%);
 }
 
   @media (max-width: 991.98px) {
@@ -764,7 +763,6 @@ box-shadow: 1px 0px 45px 0px rgba(0,0,0,0.49);
      }
 
      .site-navbar{
-      background: linear-gradient(180deg, rgba(22, 22, 22, 1) 0%, rgba(0, 0, 0, 0) 40%);;
      }
         
       }

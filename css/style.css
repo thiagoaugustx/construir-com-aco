@@ -1144,17 +1144,28 @@ box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
 
 
 .formulario{
-  background-color: #333;
-  width: 100%;
+  background-size: cover;
+  background-position: left ;
+  width: 1080px;
   display: flex;
-  height: 710px;
   margin: 0 auto !important;
+}
+
+#formulario{
+  width: 100% !important;
+}
+
+.background-formulario{
+  background-image: url(https://i.imgur.com/ZbXALiQ.jpeg);
+  background-size: cover;
+  background-position: left ;
 }
 
 .txt-formulario{
   width: 50%;
   padding: 60px;
-  margin-top: 120px;
+  margin-top: 150px;
+  text-shadow: 4px 4px 9px rgba(0,0,0,0.69);
 }
 
 .txt-formulario h1{
@@ -1162,11 +1173,13 @@ color: #Fff;
 font-family: segoe ui black;
 width: 100%;
 font-size: 50px;
+line-height:50px;
 }
 
 .txt-formulario p{
   font-family: segoe ui regular;
   color: #fff;
+
 }
 
 .estrutura-formulario{
@@ -1175,22 +1188,30 @@ font-size: 50px;
   margin-top: 40px;
 }
 
+label{
+  color: #ffffff;
+  font-size: medium;
+}
+
 .container-form{
-  background-color: #d6d6d6;
+  background-color: #00000049;
   border-radius: 10px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
   width: 100%;
   overflow: hidden;
   padding: 20px;
   display: block;
 }
 
+#form-abaixo{
+  visibility: hidden}
+
 
 .form-control{
   margin-bottom: 50px;
   position: relative;
   border: none;
-  background-color: #d6d6d6;
+  background-color: #d6d6d600;
 
 }
 
@@ -1242,6 +1263,56 @@ font-size: 50px;
   -webkit-box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
 -moz-box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
 box-shadow: 0px 0px 39px 0px rgba(4,255,0,0.48);
+}
+
+@media (max-width: 991.98px){
+  #formulario{
+    width: 100% !important;
+  }
+
+  .formulario{
+    width: 100% !important;
+    display: block !important;
+    flex-direction: column !important;
+  }
+
+  .txt-formulario{
+    width: 100%;
+  }
+
+  .txt-formulario h1{
+    font-size:27px;
+    line-height: 30px;
+    margin-top: 40px;
+
+  }
+
+  .txt-formulario p{
+
+  }
+
+  .estrutura-formulario{
+    width: 100% !important;
+    margin-top: -70px;
+  }
+
+  .container-form{
+    width: 100% !important;
+
+  }
+
+  #form .form{
+
+  } 
+
+  #form-abaixo p{
+visibility: visible;    font-size: 15px;
+  }
+
+  #form-ao-lado p{
+    display: none;
+  }
+
 }
 
 /* ERROR AND SUCCESS */

@@ -857,7 +857,6 @@ font-weight: 400;
         }
         #secao2{
           flex-direction: column !important;
-          height: 840px !important;
           width: 100% !important;
 
         }
@@ -882,7 +881,6 @@ font-weight: 400;
         .titulo-parceiros h1{
           font-size: 22px;
           line-height: 30px;
-          margin-left: 20%;
           
         }
         .parceiro-txt{

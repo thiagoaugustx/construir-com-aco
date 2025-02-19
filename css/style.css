@@ -1104,7 +1104,7 @@ box-shadow: 12px 10px 21px 0px rgba(0,0,0,0.58);
 @media (max-width: 991.98px){
   .construirjuntos{
     width: 100% !important;
-
+ height: auto;
   }
 
   .background{

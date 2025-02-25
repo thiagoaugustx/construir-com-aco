@@ -625,6 +625,8 @@ font-weight: 900;
 
           #h1-banner{
             font-size: 40px;
+            color: #ff0000;
+            z-index: 99;
           }
 
           .textosbanner h1{

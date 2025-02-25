@@ -623,6 +623,10 @@ font-weight: 900;
 
           }
 
+          #h1-banner{
+            font-size: 40px;
+          }
+
           .textosbanner h1{
             font-size: 50px;
             line-height: 45px;

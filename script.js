@@ -131,5 +131,9 @@ const handleSubmit = (event) => {
     });
 };
 
+
+
+
+
 // Adiciona o evento de submit ao formulário
 document.getElementById('form').addEventListener('submit', handleSubmit);

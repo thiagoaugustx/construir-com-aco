@@ -1365,6 +1365,106 @@ visibility: visible;    font-size: 15px;
 
 }
 
+/* RODAPÉ */
+.rodape{
+  background-color: #202020;
+
+}
+
+.rodape-estrutura{
+  width: 1080px;
+  margin: 0 auto !important;
+}
+
+.h1-redes h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 700;
+
+}
+
+.h1-redes p{
+  margin-left: 220px;
+  width: 600px;
+  text-align: center;
+  color: #fff; 
+}
+.h1-redes{
+}
+
+.logos-redes{
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+
+}
+
+.logos-redes i{
+  margin: 20px;
+  font-size:50px;
+  padding: 20px;
+  color: #fff;
+  scale: 0.8;
+  background-color: #1b923f;
+  border-radius: 15px;  
+}
+
+.logos-redes i:hover{
+  scale: 0.70;
+  color: #17983e;
+  background-color: #ffffff;
+  transition:1s;
+  cursor: pointer;
+  box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 30px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 991.98px){
+
+  .rodape{
+    width: 100% !important;
+  }
+
+  .rodape-estrutura{
+    width:80% !important;
+  }
+
+  .h1-redes{
+    width: 100% !important;
+  }
+
+  .h1-redes h1{
+    font-size: 18px;
+    text-align: center;
+
+  }
+
+  .h1-redes p{
+    width: 90%;
+    font-size: 10px;
+    margin-left: 20px;
+  }
+
+  .logos-redes{
+
+  }
+
+.logos-redes i{
+  font-size: 20px;
+  margin: 5px;
+  padding: 20px;
+
+  }
+}
+
+
+
+/* RODAPÉ */
+
 /* ERROR AND SUCCESS */
 
   .form-control.sucess input{
